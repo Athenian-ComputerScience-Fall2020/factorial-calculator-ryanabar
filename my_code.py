@@ -11,8 +11,8 @@ def factorial_calc(num):   #you may choose the name of the parameter
         print("The factorial of 0 is 1.")
     else:
         for x in range(1, num + 1):
-            factorial = x * 1
-    return x
+            factorial = x * factorial
+    return factorial
 
 if __name__ == '__main__':
 
